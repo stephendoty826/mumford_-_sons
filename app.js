@@ -10,9 +10,9 @@ app.use(express.static("public"))
 app.set("view engine", "ejs")
 
 // routes
-app.get("/", (req, res) => {
-    res.send("home page")
-})
+app.use(require("./routes/index"))
+app.use(require("./routes/albums"))
+app.use(require("./routes/album"))
 
 // starting server
 app.listen(port, () => {

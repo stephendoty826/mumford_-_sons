@@ -4,7 +4,7 @@
         "slug": "sigh_no_more",
         "publishDate": "2009",
         "description": "Sigh No More is the debut studio album by London-based rock quartet Mumford & Sons. It was released on 2 October 2009 in the UK, and on 16 February 2010 in the United States and Canada. The album entered the UK Albums Chart at No. 11 and peaked at No. 2 on 20 February 2011, in its 72nd week on the chart and following its Album of the Year win at the Brit Awards. In early 2011, the album peaked at No. 2 on the Billboard 200 in the US.",
-        "albumArtwork": "https://img.discogs.com/mm1mR4CfpQtZ8G5b1U0gDgilXhw=/fit-in/600x534/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-2889488-1305841296.jpeg.jpg",
+        "albumArtwork": "/images/sign_no_more.jpeg",
         "songTitles": ["Sign No More", "The Cave", "Winter Winds", "Roll Away Your Stone", "White Blank Page", "I Gave You All", "Little Lion Man", "Timshel", "Thistle & Weeds", "Awake My Soul", "Dust Bowl Dance", "After the Storm"], 
         "appleMusic": "https://music.apple.com/us/album/sigh-no-more/1451599078",
         "spotify": "https://open.spotify.com/album/6w5W6ZGTvDsppKUOiGMuMo"
@@ -13,7 +13,7 @@
         "slug": "babel", 
         "publishDate": "2012",
         "description": "Babel is the second studio album by British rock band Mumford & Sons. As with Sigh No More, the album was produced by Markus Dravs. The vinyl LP version of the record was pressed by United Record Pressing in Nashville, Tennessee. It was released on 21 September 2012 in Ireland, Germany, Belgium, the Netherlands, Luxembourg, Norway, Australia and New Zealand. It was released on 24 September 2012 in the United Kingdom, Scandinavia, Spain, Italy, Eastern Europe, South America, and on 25 September 2012 in the United States and Canada.",
-        "albumArtwork": "https://www.nme.com/wp-content/uploads/2016/09/MumfordAndSonsBabel600Gb030912-1.jpg",
+        "albumArtwork": "/images/babel.jpg",
         "songTitles": ["Babel", "Whispers in the Dark", "I Will Wait", "Holland Road", "Ghosts That We Knew", "Lover of the Light", "Lovers' Eyes", "Reminder", "Hopeless Wanderer", "Broken Crown", "Below My Feet", "Not with Haste", "For Those Below", "The Boxer", "Where Are You Now"],
         "appleMusic": "https://music.apple.com/us/album/babel-deluxe-version/1451531115",
         "spotify": "https://open.spotify.com/album/4Blt0T4LKGdWreILkYZre3"
@@ -22,7 +22,7 @@
         "slug": "wilder_mind",
         "publishDate": "2015",
         "description": "Wilder Mind is the third studio album by British rock band Mumford & Sons. It was released on 4 May 2015 through Gentlemen of the Road, Island, Glassnote and Universal Music Group. It was an international success in its first week on sale, charting at number one in seven countries, topping both the UK Albums Chart and the US Billboard 200, and reaching the top 5 in nine other countries. Five singles have been released from the album, 'Believe', 'The Wolf', 'Ditmas', 'Tompkins Square Park' and 'Just Smoke'.",
-        "albumArtwork": "https://media.pitchfork.com/photos/5929ad795e6ef95969321aa8/1:1/w_600/d5990d63.jpg",
+        "albumArtwork": "/images/wilder_mind.jpeg",
         "songTitles": ["Tompkins Square Park", "Believe", "The Wolf", "Wilder Mind", "Just Smoke", "Monster", "Snake Eyes", "Broad-Shouldered Beasts", "Cold Arms", "Ditmas", "Only Love", "Hot Gates"],
         "appleMusic": "https://music.apple.com/us/album/wilder-mind-deluxe/1451355052",
         "spotify": "https://open.spotify.com/album/7yVx5zJONB6MO8zL1jHN7i"
@@ -31,7 +31,7 @@
         "slug": "delta",
         "publishDate": "2018",
         "description": "Delta is the fourth studio album by British band Mumford & Sons. It was released on 16 November 2018 through Gentlemen of the Road, Island Records and Glassnote.[1] The album was recorded at The Church Studios in London with producer Paul Epworth.[1] The album reached number one on the US Billboard 200 and number two on the UK Albums Chart. It was also their last album with guitarist and banjoist Winston Marshall before his departure in 2021.",
-        "albumArtwork": "https://media.pitchfork.com/photos/5beeeb217dac23155a9eb828/1:1/w_600/delta.jpg",
+        "albumArtwork": "/images/delta.jpeg",
         "songTitles": ["42", "Guiding Light", "Woman", "Beloved", "The Wild", "October Skies", "Slip Away", "Rose Of Sharon", "Picture You", "Darkness Visible", "If I Say", "Wild Heart", "Forever", "Delta"],
         "appleMusic": "https://music.apple.com/us/album/delta/1510323571",
         "spotify": "https://open.spotify.com/album/4cKEpUZp7REMrSjd4ICCZz"
