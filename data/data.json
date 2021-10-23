@@ -1,32 +1,5 @@
 {
     "albums": [{
-        "name": "Sigh No More",
-        "slug": "sigh_no_more",
-        "publishDate": "2009",
-        "description": "Sigh No More is the debut studio album by London-based rock quartet Mumford & Sons. It was released on 2 October 2009 in the UK, and on 16 February 2010 in the United States and Canada. The album entered the UK Albums Chart at No. 11 and peaked at No. 2 on 20 February 2011, in its 72nd week on the chart and following its Album of the Year win at the Brit Awards. In early 2011, the album peaked at No. 2 on the Billboard 200 in the US.",
-        "albumArtwork": "/images/sign_no_more.jpeg",
-        "songTitles": ["Sign No More", "The Cave", "Winter Winds", "Roll Away Your Stone", "White Blank Page", "I Gave You All", "Little Lion Man", "Timshel", "Thistle & Weeds", "Awake My Soul", "Dust Bowl Dance", "After the Storm"], 
-        "appleMusic": "https://music.apple.com/us/album/sigh-no-more/1451599078",
-        "spotify": "https://open.spotify.com/album/6w5W6ZGTvDsppKUOiGMuMo"
-    }, {
-        "name": "Babel",
-        "slug": "babel", 
-        "publishDate": "2012",
-        "description": "Babel is the second studio album by British rock band Mumford & Sons. As with Sigh No More, the album was produced by Markus Dravs. The vinyl LP version of the record was pressed by United Record Pressing in Nashville, Tennessee. It was released on 21 September 2012 in Ireland, Germany, Belgium, the Netherlands, Luxembourg, Norway, Australia and New Zealand. It was released on 24 September 2012 in the United Kingdom, Scandinavia, Spain, Italy, Eastern Europe, South America, and on 25 September 2012 in the United States and Canada.",
-        "albumArtwork": "/images/babel.jpg",
-        "songTitles": ["Babel", "Whispers in the Dark", "I Will Wait", "Holland Road", "Ghosts That We Knew", "Lover of the Light", "Lovers' Eyes", "Reminder", "Hopeless Wanderer", "Broken Crown", "Below My Feet", "Not with Haste", "For Those Below", "The Boxer", "Where Are You Now"],
-        "appleMusic": "https://music.apple.com/us/album/babel-deluxe-version/1451531115",
-        "spotify": "https://open.spotify.com/album/4Blt0T4LKGdWreILkYZre3"
-    }, {
-        "name": "Wilder Mind",
-        "slug": "wilder_mind",
-        "publishDate": "2015",
-        "description": "Wilder Mind is the third studio album by British rock band Mumford & Sons. It was released on 4 May 2015 through Gentlemen of the Road, Island, Glassnote and Universal Music Group. It was an international success in its first week on sale, charting at number one in seven countries, topping both the UK Albums Chart and the US Billboard 200, and reaching the top 5 in nine other countries. Five singles have been released from the album, 'Believe', 'The Wolf', 'Ditmas', 'Tompkins Square Park' and 'Just Smoke'.",
-        "albumArtwork": "/images/wilder_mind.jpeg",
-        "songTitles": ["Tompkins Square Park", "Believe", "The Wolf", "Wilder Mind", "Just Smoke", "Monster", "Snake Eyes", "Broad-Shouldered Beasts", "Cold Arms", "Ditmas", "Only Love", "Hot Gates"],
-        "appleMusic": "https://music.apple.com/us/album/wilder-mind-deluxe/1451355052",
-        "spotify": "https://open.spotify.com/album/7yVx5zJONB6MO8zL1jHN7i"
-    }, {
         "name": "Delta",
         "slug": "delta",
         "publishDate": "2018",
@@ -35,5 +8,50 @@
         "songTitles": ["42", "Guiding Light", "Woman", "Beloved", "The Wild", "October Skies", "Slip Away", "Rose Of Sharon", "Picture You", "Darkness Visible", "If I Say", "Wild Heart", "Forever", "Delta"],
         "appleMusic": "https://music.apple.com/us/album/delta/1510323571",
         "spotify": "https://open.spotify.com/album/4cKEpUZp7REMrSjd4ICCZz"
+    }, {
+        "name": "Wilder Mind",
+        "slug": "wilder_mind",
+        "publishDate": "2015",
+        "description": "Wilder Mind is the third studio album by British rock band Mumford & Sons. It was released on 4 May 2015 through Gentlemen of the Road, Island, Glassnote and Universal Music Group. It was an international success in its first week on sale, charting at number one in seven countries, topping both the UK Albums Chart and the US Billboard 200, and reaching the top 5 in nine other countries. Five singles have been released from the album, 'Believe', 'The Wolf', 'Ditmas', 'Tompkins Square Park' and 'Just Smoke'.",
+        "albumArtwork": "/images/wilder_mind.jpeg",
+        "songTitles": ["Tompkins Square Park", "Believe", "The Wolf", "Wilder Mind", "Just Smoke", "Monster", "Snake Eyes", "Broad-Shouldered Beasts", "Cold Arms", "Ditmas", "Only Love", "Hot Gates"],
+        "appleMusic": "https://music.apple.com/us/album/wilder-mind/1450858109",
+        "spotify": "https://open.spotify.com/album/7yVx5zJONB6MO8zL1jHN7i"
+    }, {
+        "name": "The Road to Red Rocks",
+        "slug": "the_road_to_red_rocks", 
+        "publishDate": "2012",
+        "description": "A few months ago beneath a misty moon the band played two sold out nights at the beautiful amphitheatre set amongst the Red Rocks of Colorado.\n\nAs well as heralding the imminent release of Babel, the shows provided the background for the video for I Will Wait as well as, we can now reveal, the basis for an official Road to Red Rocks DVD, now set for release in the UK and Europe on 26th November and available to pre-order from the official M&S webstore. The DVD is also due to be released in Australia and New Zealand on 30th November and in the US and Canada on 22nd January.",
+        "albumArtwork": "/images/the_road_to_red_rocks.jpeg",
+        "songTitles": ["Lovers' Eyes - Live", "Little Lion Man - Live", "Below My Feed - Live", "Roll Away Your Stone - Live", "Lover of the Light - Live", "Ghosts That We Knew - Live", "Awake My Soul - Live", "Whispers In the Dark - Live", "Dustbowl Dance - Live", "I Will Wait - Live", "The Cave - Live"],
+        "appleMusic": "https://music.apple.com/us/album/the-road-to-red-rocks-live/1451097698",
+        "spotify": "https://open.spotify.com/album/6kYGJDsLoKB3oWhUfhHR7w"
+    }, {
+        "name": "Babel (Deluxe Version)",
+        "slug": "babel_deluxe_version", 
+        "publishDate": "2012",
+        "description": "Babel is the second studio album by British rock band Mumford & Sons. As with Sigh No More, the album was produced by Markus Dravs. The vinyl LP version of the record was pressed by United Record Pressing in Nashville, Tennessee. It was released on 21 September 2012 in Ireland, Germany, Belgium, the Netherlands, Luxembourg, Norway, Australia and New Zealand. It was released on 24 September 2012 in the United Kingdom, Scandinavia, Spain, Italy, Eastern Europe, South America, and on 25 September 2012 in the United States and Canada.",
+        "albumArtwork": "/images/babel.jpg",
+        "songTitles": ["Babel", "Whispers in the Dark", "I Will Wait", "Holland Road", "Ghosts That We Knew", "Lover of the Light", "Lovers' Eyes", "Reminder", "Hopeless Wanderer", "Broken Crown", "Below My Feet", "Not with Haste", "For Those Below", "The Boxer", "Where Are You Now"],
+        "appleMusic": "https://music.apple.com/us/album/babel-deluxe-version/1451531115",
+        "spotify": "https://open.spotify.com/album/4Blt0T4LKGdWreILkYZre3"
+    }, {
+        "name": "Live from Shepherd's Bush Empire",
+        "slug": "live_from_shepherds_bush_empire",
+        "publishDate": "2009",
+        "description": "Live from Shepherd's Bush Empire is the first live album by England's up and coming rock quartet Mumford & Sons. The band played two sold out shows at the venue which was originally built in 1903 as a music hall. The concert comprised of songs from the bands latest album \"Sign No More\" as well as two original songs, \"Feel the Tide\" and \"Hold on to What You Believe\".",
+        "albumArtwork": "/images/live_from_shepherds_bush_empire.jpeg",
+        "songTitles": ["Sign No More - Live", "Winter Winds - Live", "Roll Away Your Stone - Live", "White Blank Page - Live", "I Gave You All - Live", "Little Lion Man", "Awake My Soul - Live", "Little Lion Man - Live", "Thistle & Weeds - Live", "Timshel - Live", "The Cave - Live", "Dust Bowl Dance - Live", "Feel the Tide - Live", "Hold on to What You Believe - Live"], 
+        "appleMusic": "https://music.apple.com/us/album/live-from-shepherds-bush-empire/1452620317",
+        "spotify": "https://open.spotify.com/album/2fMNeQYA2SXHCfC7yV3deM"
+    }, {
+        "name": "Sigh No More",
+        "slug": "sigh_no_more",
+        "publishDate": "2009",
+        "description": "Sigh No More is the debut studio album by London-based rock quartet Mumford & Sons. It was released on 2 October 2009 in the UK, and on 16 February 2010 in the United States and Canada. The album entered the UK Albums Chart at No. 11 and peaked at No. 2 on 20 February 2011, in its 72nd week on the chart and following its Album of the Year win at the Brit Awards. In early 2011, the album peaked at No. 2 on the Billboard 200 in the US.",
+        "albumArtwork": "/images/sign_no_more.jpeg",
+        "songTitles": ["Sign No More", "The Cave", "Winter Winds", "Roll Away Your Stone", "White Blank Page", "I Gave You All", "Little Lion Man", "Timshel", "Thistle & Weeds", "Awake My Soul", "Dust Bowl Dance", "After the Storm"], 
+        "appleMusic": "https://music.apple.com/us/album/sigh-no-more/1451599078",
+        "spotify": "https://open.spotify.com/album/6w5W6ZGTvDsppKUOiGMuMo"
     }]
 }

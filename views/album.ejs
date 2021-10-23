@@ -4,8 +4,8 @@
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Name of Album</title>
-    <link rel='stylesheet' href='/styles/myStyles.css'>
+    <title><%= album.name %></title>
+    <link rel='stylesheet' href='/styles/styles.css'>
     <link rel="stylesheet" href="/styles/album.css">
     <!-- CSS only -->
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF' crossorigin='anonymous'>
@@ -27,40 +27,41 @@
     </nav>
 
     <div class="contentContainer">
+        <div class="backgroundContainerAlbum">
+            <img class="bgImageAlbum" src="..<%= backgroundImg %>" alt="mumford & sons group shot">
+            <div class="bgOpacityAlbum"></div>
+        </div>
         <div class="d-flex">
-            <div class="albumArtContainer">
-                <img class="albumArtwork" src="../images/sign_no_more.jpeg">
+            <div class="albumArtContainer z40">
+                <img class="albumArtwork" src="..<%= album.albumArtwork %>">
                 <div class="listenOn">Listen on 
-                    <a class="listenLink" href=""><strong>Spotify</strong></a> 
+                    <a class="listenLink" href="<%= album.spotify %>" target="_blank"><strong>Spotify</strong></a> 
                     or 
-                    <a class="listenLink" href=""><strong>Apple Music</strong></a>
+                    <a class="listenLink" href="<%= album.appleMusic %>" target="_blank"><strong>Apple Music</strong></a>
                 </div>
             </div>
-            <div class="songListContainer">
-                <div class="py-2 fw-bold fst-italic fs-2 mx-auto">Sigh No More</div>
-                <ol class="songList">
-                    <li class="songListItem">Sigh No More</li>
-                    <li class="songListItem">The Cave</li>
-                    <li class="songListItem">Winter Winds</li>
-                    <li class="songListItem">Roll Away Your Stone</li>
-                    <li class="songListItem">White Blank Page</li>
-                    <li class="songListItem">White Blank Page</li>
-                    <li class="songListItem">White Blank Page</li>
-                    <li class="songListItem">White Blank Page</li>
-                    <li class="songListItem">Roll Away Your Stone</li>
-                    <li class="songListItem">White Blank Page</li>
-                    <li class="songListItem">White Blank Page</li>
-                    <li class="songListItem">White Blank Page</li>
-                    <li class="songListItem">White Blank Page</li>
-                    <li class="songListItem">White Blank Page</li>
-                    <li class="songListItem">White Blank Page</li>
-                </ol>
+            <div class="songListContainer z40">
+                <div class="songListBackground"></div>
+                <div class="songListSubcontainer">
+                    <div class="py-2 fw-bold fst-italic fs-2 mx-auto text-white pt-5 "><%= album.name %></div>
+                    <ol class="songList">
+                        <!-- for loop to display songs -->
+                        <% album.songTitles.forEach(songTitle => { %> 
+                            <li class="songListItem"><%= songTitle %></li>
+                        <% }) %>  
+                    </ol>
+                </div>
             </div>
         </div>
-        <div class="summary">
-            Sigh No More is the debut studio album by London-based rock quartet Mumford & Sons. It was released on 2 October 2009 in the UK, and on 16 February 2010 in the United States and Canada. The album entered the UK Albums Chart at No. 11 and peaked at No. 2 on 20 February 2011, in its 72nd week on the chart and following its Album of the Year win at the Brit Awards. In early 2011, the album peaked at No. 2 on the Billboard 200 in the US. 
+        <div class="position-relative">
+            <div class="descriptionBackground"></div>
+            <div class="description"><%= album.description %></div>
         </div>
     </div>
-
+    <div class="contactInfo">
+        <div class="contactLinks"><i class="fab fa-github"></i>&nbsp github</div>
+        <a href="" class="contactLinks">Created by Stephen Doty</a>
+    </div>
+    <script src='https://kit.fontawesome.com/35bf133ef1.js' crossorigin='anonymous'></script>
 </body>
 </html>

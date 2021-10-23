@@ -5,10 +5,7 @@ body{
 }
 
 .navbarContainer{
-    background: #3E4C59;
-    background: -moz-linear-gradient(left, #3E4C59 0%, #252D35 100%);
-    background: -webkit-linear-gradient(left, #3E4C59 0%, #252D35 100%);
-    background: linear-gradient(to right, #3E4C59 0%, #252D35 100%);
+    background-color: #252D35;
     height: 50px;
     width: 100%;
     margin: 0px;
@@ -68,3 +65,6 @@ body{
         position: absolute;
         z-index: 50;
     }
+
+
+

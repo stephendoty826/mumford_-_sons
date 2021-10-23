@@ -1,19 +1,43 @@
 
 .contentContainer{
-    background: #4A5B6B;
-    background: -moz-linear-gradient(45deg, #4A5B6B 0%, #252D35 50%, #4A5B6B 100%);
-    background: -webkit-linear-gradient(45deg, #4A5B6B 0%, #252D35 50%, #4A5B6B 100%);
-    background: linear-gradient(45deg, #4A5B6B 0%, #252D35 50%, #4A5B6B 100%);
     height: 100%;
     width: 100%;
     padding-bottom: 50px;
-    padding-top: 37px;
+    position: relative;
     font-family: 'DM Serif Text', serif;
 }
+
+.backgroundContainerAlbum{
+    background-color: #F7EADE;
+    height: 94.8vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+    .bgImageAlbum{
+        height: 100%;
+        width: auto;
+        z-index: 20;
+        opacity: 100%;
+        filter:blur(3px);
+    }
+    .bgOpacityAlbum{
+        background-color: black;
+        position: absolute;
+        opacity: 60%;
+        z-index: 30;
+        height: 100%;
+        width: 100%;
+    }
+
     /* contained within div with d-flex */
         .albumArtContainer{
             margin-left: 10%;
             margin-right: 10%;
+            margin-top: 40px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -34,7 +58,7 @@
                 }
                 .listenLink:hover{
                     color: white;
-                    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.6);
+                    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.65);
                 }
                 .listenLink:visited{
                     color: white;
@@ -42,51 +66,97 @@
 
 
         .songListContainer{
-            background: #4A5B6B;
-            background: -moz-linear-gradient(-45deg, #4A5B6B 0%, #3E4C59 50%, #4A5B6B 100%);
-            background: -webkit-linear-gradient(-45deg, #4A5B6B 0%, #3E4C59 50%, #4A5B6B 100%);
-            background: linear-gradient(135deg, #4A5B6B 0%, #3E4C59 50%, #4A5B6B 100%);
             border-radius: 24px;
-            color: white;
-            box-shadow: 6px 5px 4px 0px rgba(0,0,0,0.55);
-            margin-top: 40px;
             margin-right: 50px;
+            margin-top: 15px;
+            position: relative;
             width: 49%;
-            height: 380px;
+            height: 410px;
             display: flex;
             flex-direction: column;
         }
-            .songList{
-                height: 300px;
-                width: auto;
+            .songListBackground{
+                background-color: white;
+                ;
+                border-radius: 24px;
+                margin-top: 40px;
+                margin-right: 50px;
+                width: 100%;
+                height: 100%;
                 display: flex;
                 flex-direction: column;
-                flex-wrap: wrap;
-                align-content: center;
+                align-items: center;
+                opacity: 20%;
+            }        
+            .songListSubcontainer{
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                display: flex;
+                flex-direction: column;
             }
-            .songListItem{
-                font-size: 24px;
-                width: 235px;
-                margin-right: 40px;
-                margin-left: 40px;
-            }
+                .songList{
+                    height: 290px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-content: center;
+                    color: white;
+                }
+                .songListItem{
+                    font-size: 22px;
+                    width: auto;
+                    margin-right: 40px;
+                    margin-left: 40px;
+                }
     
 
-    
-    .summary{
-        background: #63798E;
-        background: -moz-linear-gradient(left, #63798E 0%, #3E4C59 100%);
-        background: -webkit-linear-gradient(left, #63798E 0%, #3E4C59 100%);
-        background: linear-gradient(to right, #63798E 0%, #3E4C59 100%);
-        color: white;
-        border-radius: 24px;
-        box-shadow: 6px 5px 4px 0px rgba(0,0,0,0.55);
-        margin-top: 50px;
-        margin-inline: 80px;
+    .descriptionBackground{
+        background-color: #fff;
+        margin-top: 30px;
         padding-top: 65px;
         padding-inline: 80px;
         height: 330px;
+        width: 100vw;
+        overflow-y: scroll;
+        position: absolute;
+        z-index: 40;
+        opacity: 30%
+    }
+    .description{
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding-top: 35px;
+        padding-inline: 200px;
+        height: 330px;
         font-size: 24px;
         overflow-y: scroll;
+        position: absolute;
+        opacity: 100%;
+        z-index: 50;
+    }
+
+.z40{
+    z-index: 40;
+}
+
+.contactInfo{
+    background-color: #252D35;
+    position: absolute;
+    z-index: 100;
+    height: 80px;
+    width: 100vw;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'DM Serif Text', serif;
+}
+    .contactLinks{
+        font-size: 20px;
     }
 
