@@ -13,6 +13,8 @@ app.set("view engine", "ejs")
 app.use(require("./routes/index"))
 app.use(require("./routes/albums"))
 app.use(require("./routes/album"))
+app.use(require("./routes/aboutus"))
+app.use(require("./routes/contactus"))
 
 // starting server
 app.listen(port, () => {

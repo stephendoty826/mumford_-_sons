@@ -2,6 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #252D35;
 }
 
 .navbarContainer{
@@ -64,6 +65,30 @@ body{
         margin-bottom: 10px;
         position: absolute;
         z-index: 50;
+    }
+
+/* Github and LinkedIn links */
+.contactInfo{
+    background-color: #252D35;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'DM Serif Text', serif;
+}
+    .contactLinks{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    a.contactLinks:hover{
+        text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.75);
+    }
+    a.contactLinks:visited{
+        color: white;
     }
 
 
