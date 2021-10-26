@@ -7,7 +7,8 @@ let albums = dataFile.albums
 
 router.get("/albums", (req, res) => {
     res.render("albums", {
-        albums: albums
+        albums: albums,
+        pageTitle: "Albums"
     })
 })
 

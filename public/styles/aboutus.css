@@ -35,5 +35,5 @@
         margin-bottom: 25px;
         position: relative;
         z-index: 50;
-        overflow: scroll;
+        overflow-y: scroll;
     }

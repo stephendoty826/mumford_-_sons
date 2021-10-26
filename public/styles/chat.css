@@ -1,0 +1,110 @@
+
+.bgImageChat{
+    height: 100%;
+    width: auto;
+    z-index: 20;
+    filter:blur(8px)
+}
+.bgOpacityChat{
+    background-color: black;
+    position: absolute;
+    opacity: 75%;
+    z-index: 30;
+    height: 100%;
+    width: 100%;
+}
+.mainContainer{
+    position: absolute;
+    z-index: 50;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+    .bgWhiteOpacityChat{
+        background-color: #fff;
+        position: absolute;
+        margin: 35px;
+        opacity: 30%;
+        height: 130px;
+        width: 100%;
+        z-index: 40;
+    }
+    .bgTextChat{
+        font-family: 'DM Serif Text', serif;
+        color: white;
+        font-size: 80px;
+        text-shadow: 4px 4px 4px rgba(0,0,0,0.70);
+        margin: 35px;
+        position: absolute;
+        z-index: 50;
+    }
+    .chatContainer{
+        /* background-color: pink; */
+        position: absolute;
+        top: 25px;
+        height: 265px;
+        width: 1000px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        display: flex;
+        border: 3px solid rgba(114, 114, 114, 0.7);
+        border-radius: 10px;
+    }
+        .formContainerChat{
+            padding: 15px;
+        }
+            .titleChat{
+                width: 100%;
+                text-align: center;
+                font-family: 'DM Serif Text', serif;
+                font-size: 32px;
+            }
+            .formChat{
+                display: flex;
+                flex-direction: column;
+            }
+                .inputBoxChat{
+                    border-radius: 8px;
+                    margin-bottom: 15px;
+                }
+    .chatMessageContainer{
+        /* background-color: green; */
+        position: absolute;
+        z-index: 50;
+        top: 300px;
+        height: 300px;
+        width: 1000px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        border: 3px solid rgba(114, 114, 114, 0.7);
+        border-radius: 10px;
+        overflow-y: scroll;
+    }
+        .messageContainerChat{
+            padding-left: 15px;
+            padding-top: 5px;
+            padding-right: 15px;
+            display: flex;
+        }
+            .chatName{
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .chatMessage{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .incomingMessage{
+                background-color: rgba(199, 199, 199, 0.20);
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-bottom: 0px;
+            }
+            .sentMessage{
+                background-color: rgba(132, 194, 253, 0.20);
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-bottom: 0px;
+            }

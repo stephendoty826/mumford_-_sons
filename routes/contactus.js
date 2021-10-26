@@ -20,7 +20,9 @@ const saveResponses = () => {
 }
 
 router.get("/contactus", (req, res) => {
-    res.render("contactus")
+    res.render("contactus", {
+        pageTitle: "Contact Us"
+    })
 })
 
 // get all the message from feedback.json

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <%- include ("partials/meta.ejs") %>
+</head>
+<body>
+
+    <%- include ("partials/navbar.ejs") %>
+
+    <div class="backgroundContainer">
+        <img class="bgImageChat" src="../images/chatBackground.jpeg" alt="mumford & sons group shot">
+        <div class="bgOpacityChat"></div>
+        <div class="mainContainer">
+            <div class="chatContainer row">
+                <div class="formContainerChat col-12">
+                    <div class="titleChat">Chat with Us</div>
+                    <form class="formChat" action="">
+                        <label class="form-label">Name:</label>
+                        <input class="inputBoxChat" id="name" name="name" type="text" placeholder="Enter your name">
+                        <label class="form-label">Message:</label>
+                        <input class="inputBoxChat" id="message" name="message" type="text" placeholder="Enter your message, then hit submit">
+                        <button id="submitButton" type="submit" class="col-1">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="chatMessageContainer">
+            <!-- chat is filled via chatClient.js -->
+        </div>
+    </div>
+
+    <!-- Github and LinkedIn links -->
+    <div class="contactInfo">
+        <a href="https://github.com/stephendoty826/mumford_and_sons" target="_blank" class="contactLinks"><i class="fab fa-github"></i>&nbsp Github</a>
+        <div class="contactLinks">Created by<a href="https://www.linkedin.com/in/stephen-doty/" target="_blank" class="contactLinks"> Stephen Doty</a></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+    integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.5/socket.io.js"></script>
+    <script src="/js/chatClient.js"></script>
+</body>
+</html>

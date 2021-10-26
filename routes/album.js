@@ -15,7 +15,8 @@ router.get("/album/:albumid", (req, res) => {
     })
     res.render("album", {
         album: album[0],
-        backgroundImg: randomGroupShot
+        backgroundImg: randomGroupShot,
+        pageTitle: album[0].name
     })
 })
 
