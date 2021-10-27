@@ -39,4 +39,5 @@ chatForm.addEventListener("submit", (e) => {
         username: chatUsername.value,
         message: chatMessage.value
     })
+    // chatMessage.value = // test this out
 })
