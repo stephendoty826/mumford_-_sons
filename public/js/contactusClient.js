@@ -22,6 +22,11 @@ form.addEventListener("submit", async (e) => {
 
     let messages = await result.json()
     updateFeedback(messages)
+
+    //resets title box after message is sent 
+    document.querySelector("#title").value = null
+    //resets message box after message is sent 
+    document.querySelector("#message").value = null
 })
 
 feedbackMessages.addEventListener("click", async (e) => {
