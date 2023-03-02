@@ -39,5 +39,7 @@ chatForm.addEventListener("submit", (e) => {
         username: chatUsername.value,
         message: chatMessage.value
     })
-    // chatMessage.value = // test this out
+    
+    //resets message box after message is sent 
+    chatMessage.value = null
 })
